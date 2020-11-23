@@ -51,3 +51,10 @@ text-shadow: 2px 2px 6px #000;
   color: #e9ebdd;
 }
 
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #3d564b;
+  color: #f3e4b0
+}
