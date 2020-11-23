@@ -13,6 +13,41 @@
 font-size: 32px;
 padding: 60px;
 text-align: center;
-color: white;
+color: #f3e4b0;
 text-shadow: 2px 2px 6px #000;
 }
+
+/* Style the top navigation bar */
+.navbar {
+  display: flex;
+  background-color: #203340;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  color: #e9ebdd;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #f3e4b0;
+  color: #203340;
+}
+/* Main column */
+.main {
+  flex: 70%;
+  background-color: #a6bbc9;
+  color: #203340;
+  padding: 20px;
+}
+/* Sidebar/left column */
+.side {
+  flex: 30%;
+  background-color: #648b7f;
+  padding: 20px;
+  color: #e9ebdd;
+}
+
