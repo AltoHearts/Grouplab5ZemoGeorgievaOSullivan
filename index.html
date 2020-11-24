@@ -22,8 +22,6 @@ body {
   flex-wrap: wrap;
 }
 
-
-
 /*image, just for this examples for now*/
 .image {
   width: 100%;
@@ -34,11 +32,10 @@ body {
   width: ;
   padding: 20px;
 }
-
-
+ 
 
 /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 480px) {
   .row, .navbar {   
     flex-direction: column;
   }
@@ -67,15 +64,12 @@ body {
 <!-- The flexible grid (content) -->
 <div class="row">
   <div class="side">
-    <h2>About Me</h2>
-    <h5>Photo of me:</h5>
-    <div class="image" style="height:200px;">Image</div>
-    <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
-    <h3>More Text</h3>
-    <p>Lorem ipsum dolor sit ame.</p>
-    <div class="fakeimg" style="height:60px;">Image</div><br>
-    <div class="fakeimg" style="height:60px;">Image</div><br>
-    <div class="fakeimg" style="height:60px;">Image</div>
+    <h2>Our Coorperate Partners:</h2>
+    <!-- We will list our cooperate sponsors here -->
+    <h3>Airlines:</h3>
+    <h4><a href="https://www.delta.com/">Delta Airlines</a></h4>
+    <h4><a href="https://www.aa.com/homePage.do">American Airlines</a></h4>
+    <h4><a href="https://www.united.com/en/us">United</a></h4>
   </div>
   <div class="main">
     <h2>TITLE HEADING</h2>
@@ -96,7 +90,9 @@ body {
 
 <!-- Footer -->
 <div class="footer">
-  <h2>Committed to Eco-Friendly Tourism at Affordable Prices</h2>
+  <h2>Committed to Eco-Friendly Tourism at Affordable Prices
+  </h2>
+  <div><img src="images/eco.png" alt="VMA eco friendly" style="width:150px"></div>
 </div>
 
 </body>
