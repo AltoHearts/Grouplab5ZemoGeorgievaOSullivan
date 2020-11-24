@@ -1,0 +1,75 @@
+/* Header/logo Title */
+.header {
+  color: white;
+  text-align: center;
+  background-image: url("/images/VMABanner.png");
+  background-position: top left;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #cccccc;
+}
+
+.header-text {
+font-size: 32px;
+padding: 60px;
+text-align: center;
+color: #f3e4b0;
+text-shadow: 2px 2px 6px #000;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  display: flex;
+  background-color: #203340;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  color: #e9ebdd;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #f3e4b0;
+  color: #203340;
+}
+/* Main column */
+.main {
+  flex: 70%;
+  background-color:  #a6bbc9;
+  color: #203340;
+  padding: 20px;
+}
+/* Sidebar/left column */
+.side {
+  flex: 30%;
+  background-color: #647b8b;
+  padding: 20px;
+  color: #e9ebdd;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #3d564b;
+  color: #f3e4b0
+}
+/* Media Query */
+@media screen and (min-width: 480px) {
+  .main {
+  flex: 70%;
+  background-color: #e9ebdd;
+  color: #203340;
+  padding: 20px;
+}
+.side {
+  flex: 30%;
+  background-color: #648b7f;
+  padding: 20px;
+  color: #e9ebdd;
+}
+}
