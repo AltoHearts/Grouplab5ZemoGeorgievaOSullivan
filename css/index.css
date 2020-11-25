@@ -43,6 +43,11 @@ text-shadow: 5px 10px 18px black;
   color: #203340;
   padding: 20px;
 }
+.add {
+  text-decoration: none;
+  color: black;
+}
+
 /* Sidebar/left column */
 .side {
   flex: 30%;
@@ -58,6 +63,7 @@ text-shadow: 5px 10px 18px black;
   background: #3d564b;
   color: #f3e4b0
 }
+
 /* Media Query */
 @media screen and (min-width: 460px) {
   .main {
