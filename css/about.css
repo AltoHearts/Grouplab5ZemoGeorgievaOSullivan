@@ -1,0 +1,43 @@
+/* Header/logo Title */
+.header {
+  color: white;
+  text-align: center;
+  background-image: url("../images/VMABanner.png");
+  background-position: top left;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #cccccc;
+}
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+
+.header-text {
+font-size: 32px;
+padding: 60px;
+text-align: center;
+color: #f3e4b0;
+text-shadow: 5px 10px 18px black;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  display: flex;
+  background-color: #203340;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  color: #e9ebdd;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #f3e4b0;
+  color: #203340;
+}
