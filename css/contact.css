@@ -41,3 +41,10 @@ text-align: center;
 color: #f3e4b0;
 text-shadow: 5px 10px 18px black;
 }
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #3d564b;
+  color: #f3e4b0
+}

@@ -1,15 +1,60 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>About VMA LLC</title>
-    <link href="/css/about.css" rel="stylesheet" type="text/css" />
-  </head>
-  <body>
-    <script src="script.js"></script>
-    
-    <!-- Header -->
+<head>
+<title>About VMA LLC</title>
+<meta charset="UTF-8">
+<meta name="description" content="VMA Travel About">
+  <meta name="keywords" content="VMA, Travel, Agency, About, US, Deals, Lowprice, Cheap, Eco, Eco-Friendly, Tourism, Eco-Tourism">
+  <meta name="author" content="Veliana Georgieva">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="/css/index.css" rel="stylesheet" type="text/css" />
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+/* Column container */
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/*image, just for this examples for now*/
+.image {
+  width: 90%;
+  padding: 20px;
+  background-color: white;
+  text-align: center;
+     box-shadow: 5px 10px 18px black;
+}
+
+ .cs a {
+  padding: 14px 20px;
+  text-align: center;
+  color: #f3e4b0
+}
+h2 {
+text-align: center;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 460px) {
+  .row, .navbar {   
+    flex-direction: column;
+  }
+}
+</style>
+</head>
+<body>
+
+
+<!-- Header -->
 <div class="header">
   <div class="header-text"
   <h1><b>VMA Travel</b> llc</h1>
@@ -19,18 +64,47 @@
 <!-- Navigation Bar -->
 <div class="navbar">
   <a href="../index.html">Home</a>
-  <a href="/html/about.html">About Us</a>
   <a href="/html/reveiws.html">Customer Reveiws</a>
   <a href="/html/offers.html">Specials</a>
+  <a href="/html/contact.html">Contact Us</a>
+
 </div>
-    
-<h1> About our Company </h1>
+
+<!-- The flexible grid (content) -->
+<div class="row">
+  <div class="side">
+    <h2>Our Coorperate Partners:</h2>
+    <!-- We will list our cooperate sponsors here -->
+    <div class="cs">
+    <h3>Airlines:</h3>
+    <h4><a href="https://www.delta.com/">Delta Airlines</a></h4>
+    <h4><a href="https://www.aa.com/homePage.do">American Airlines</a></h4>
+    <h4><a href="https://www.united.com/en/us">United Airlines</a></h4>
+    </div>
+    <div class="cs">
+    <h3>Tickets and Tours:</h3>
+    <h4><a href="https://www.viator.com/">Viator</a></h4>
+    <h4><a href="https://www.affordabletours.com/">AffordableTours</a></h4>
+    <h4><a href="https://www.royalcaribbean.com/?ecid=ps_43700055460433947&country=USA&gclid=Cj0KCQiAqdP9BRDVARIsAGSZ8AloosZj0Ojd-x4FjwJLr1GjcX14T46R3xuL_c1rtjAz_IsDsOGpYdwaAmKkEALw_wcB&gclsrc=aw.ds">Royal Caribbean</a></h4>
+      </div>
+  </div>
+  <div class="main">
+    <h2>VMA Travel LLC</h2>
+    <br>
+    <h1> About our Company </h1>
 
 <p>In Summer of 1984 founders Aven Zemo, Veliana Georgieva, Maria O’Sullivan decided to do a Year Up, or a Year of travel Up and around the world, and discovered that tourism was actually environmentally damaging to the popular locations and historical sites. The masses of people cause erosion as they walk through the sites. Litter and vandalism is almost inevitable. The founders decided to create a travel agency that protected the welfare and preserved the beauty of the world, while allowing people of all income ranges the freedom to travel. In 1985, VMA opened its doors as a small travel agency office in Seattle WA.
 Today, VMA has changed gears and is now a lucrative corporate travel agency. Allowing people to plan flights and travel with convenience and low prices. 
 </p>
+  </div>
+</div>
 
-  </body>
-  
+<!-- Footer -->
+<div class="footer">
+  <h2>Committed to Eco-Friendly Tourism at Affordable Prices
+  </h2>
+  <div><img src="/images/eco.png" alt="VMA eco friendly logo" style="width:150px"></div>
+</div>
+
+</body>
 </html>
-

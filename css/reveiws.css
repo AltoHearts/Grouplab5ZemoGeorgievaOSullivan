@@ -41,3 +41,8 @@ text-shadow: 5px 10px 18px black;
   background-color: #f3e4b0;
   color: #203340;
 }
+/* Style the body */
+body {
+  font-family: Arial;
+  margin: 0;
+}
